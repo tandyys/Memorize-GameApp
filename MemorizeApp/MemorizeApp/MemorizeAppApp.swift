@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct MemorizeAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HomeView()
+//            GrapChartView()
         }
+        .modelContainer(for: GlutenData.self)
     }
 }

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2711E3B62C3E3DCC0039A7EC /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3B52C3E3DCC0039A7EC /* GraphView.swift */; };
+		2711E3B92C3E3DE50039A7EC /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3B82C3E3DE50039A7EC /* DummyData.swift */; };
+		2711E3BD2C3E821F0039A7EC /* SwfitDataData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3BC2C3E821F0039A7EC /* SwfitDataData.swift */; };
+		2711E3BF2C3E83CA0039A7EC /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3BE2C3E83CA0039A7EC /* SwiftDataView.swift */; };
+		2711E3C12C3E8CED0039A7EC /* GlutenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3C02C3E8CED0039A7EC /* GlutenData.swift */; };
+		2711E3C72C3E8E550039A7EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3C62C3E8E550039A7EC /* HomeView.swift */; };
+		2711E3C92C3E8E600039A7EC /* SwiftDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3C82C3E8E600039A7EC /* SwiftDataVM.swift */; };
+		2711E3CC2C3F8ACE0039A7EC /* SwiftDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3CB2C3F8ACE0039A7EC /* SwiftDataSource.swift */; };
+		2711E3CE2C3F8E890039A7EC /* GraphChartVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3CD2C3F8E890039A7EC /* GraphChartVM.swift */; };
+		2711E3D02C3F927D0039A7EC /* GrapChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711E3CF2C3F927D0039A7EC /* GrapChartView.swift */; };
 		27F1B5012C3A836200128A7D /* MemorizeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1B5002C3A836200128A7D /* MemorizeAppApp.swift */; };
 		27F1B5032C3A836200128A7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1B5022C3A836200128A7D /* ContentView.swift */; };
 		27F1B5052C3A836300128A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F1B5042C3A836300128A7D /* Assets.xcassets */; };
@@ -14,6 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2711E3B52C3E3DCC0039A7EC /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		2711E3B82C3E3DE50039A7EC /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		2711E3BA2C3E734D0039A7EC /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Bold.otf"; path = "../../../../../../Library/Fonts/SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		2711E3BB2C3E74740039A7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2711E3BC2C3E821F0039A7EC /* SwfitDataData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitDataData.swift; sourceTree = "<group>"; };
+		2711E3BE2C3E83CA0039A7EC /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		2711E3C02C3E8CED0039A7EC /* GlutenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenData.swift; sourceTree = "<group>"; };
+		2711E3C62C3E8E550039A7EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2711E3C82C3E8E600039A7EC /* SwiftDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataVM.swift; sourceTree = "<group>"; };
+		2711E3CB2C3F8ACE0039A7EC /* SwiftDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataSource.swift; sourceTree = "<group>"; };
+		2711E3CD2C3F8E890039A7EC /* GraphChartVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphChartVM.swift; sourceTree = "<group>"; };
+		2711E3CF2C3F927D0039A7EC /* GrapChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapChartView.swift; sourceTree = "<group>"; };
 		27F1B4FD2C3A836200128A7D /* MemorizeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F1B5002C3A836200128A7D /* MemorizeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeAppApp.swift; sourceTree = "<group>"; };
 		27F1B5022C3A836200128A7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +54,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2711E3B42C3E3DBF0039A7EC /* GraphTest */ = {
+			isa = PBXGroup;
+			children = (
+				2711E3C52C3E8E4A0039A7EC /* View */,
+				2711E3C42C3E8E2C0039A7EC /* ViewModel */,
+				2711E3B72C3E3DDA0039A7EC /* Model */,
+				2711E3B52C3E3DCC0039A7EC /* GraphView.swift */,
+				2711E3BE2C3E83CA0039A7EC /* SwiftDataView.swift */,
+			);
+			path = GraphTest;
+			sourceTree = "<group>";
+		};
+		2711E3B72C3E3DDA0039A7EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2711E3CA2C3F8ABA0039A7EC /* DataSource */,
+				2711E3B82C3E3DE50039A7EC /* DummyData.swift */,
+				2711E3BC2C3E821F0039A7EC /* SwfitDataData.swift */,
+				2711E3C02C3E8CED0039A7EC /* GlutenData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2711E3C42C3E8E2C0039A7EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2711E3C82C3E8E600039A7EC /* SwiftDataVM.swift */,
+				2711E3CD2C3F8E890039A7EC /* GraphChartVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2711E3C52C3E8E4A0039A7EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2711E3C62C3E8E550039A7EC /* HomeView.swift */,
+				2711E3CF2C3F927D0039A7EC /* GrapChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2711E3CA2C3F8ABA0039A7EC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2711E3CB2C3F8ACE0039A7EC /* SwiftDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		27F1B4F42C3A836200128A7D = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +122,9 @@
 		27F1B4FF2C3A836200128A7D /* MemorizeApp */ = {
 			isa = PBXGroup;
 			children = (
+				2711E3BB2C3E74740039A7EC /* Info.plist */,
+				2711E3BA2C3E734D0039A7EC /* SF-Pro-Rounded-Bold.otf */,
+				2711E3B42C3E3DBF0039A7EC /* GraphTest */,
 				27F1B5002C3A836200128A7D /* MemorizeAppApp.swift */,
 				27F1B5022C3A836200128A7D /* ContentView.swift */,
 				27F1B5042C3A836300128A7D /* Assets.xcassets */,
@@ -137,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2711E3BF2C3E83CA0039A7EC /* SwiftDataView.swift in Sources */,
+				2711E3D02C3F927D0039A7EC /* GrapChartView.swift in Sources */,
+				2711E3B92C3E3DE50039A7EC /* DummyData.swift in Sources */,
+				2711E3C92C3E8E600039A7EC /* SwiftDataVM.swift in Sources */,
 				27F1B5032C3A836200128A7D /* ContentView.swift in Sources */,
+				2711E3C12C3E8CED0039A7EC /* GlutenData.swift in Sources */,
+				2711E3CE2C3F8E890039A7EC /* GraphChartVM.swift in Sources */,
 				27F1B5012C3A836200128A7D /* MemorizeAppApp.swift in Sources */,
+				2711E3CC2C3F8ACE0039A7EC /* SwiftDataSource.swift in Sources */,
+				2711E3C72C3E8E550039A7EC /* HomeView.swift in Sources */,
+				2711E3B62C3E3DCC0039A7EC /* GraphView.swift in Sources */,
+				2711E3BD2C3E821F0039A7EC /* SwfitDataData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +359,7 @@
 				DEVELOPMENT_TEAM = L27J25C3C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorizeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +389,7 @@
 				DEVELOPMENT_TEAM = L27J25C3C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemorizeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
